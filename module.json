@@ -1,0 +1,51 @@
+{
+  "name": "tacticalmap-p120",
+  "id": "tacticalmap-p120",
+  "title": "City defense",
+  "description": "Street Stakes, Barricaded House, Broken Crossing",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "13",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "city-defense",
+      "label": "City defense",
+      "path": "packs/city-defense.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "city-defense",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "relationships": {
+    "requires": [
+      {
+        "id": "tagger",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/TacticalMap/tacticalmap-p120/main/module.json",
+  "download": "https://github.com/TacticalMap/tacticalmap-p120/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
